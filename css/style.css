@@ -1,0 +1,106 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* banner section */
+#banner{
+    background: url(../img/banner.png);
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 150px;
+    margin: 0;
+    color: white;
+}
+#banner h3{
+    margin-top: 50px;
+    text-align: center;
+}
+#banner h1{
+    text-align: center;
+    font-size:40px;
+    margin: 25px 0;
+}
+#banner p{
+    text-align: center;
+    font-size: 18px;
+    margin: 50px 0;
+}
+#btn-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.banner-btn{
+    text-align: center;
+    display: block;
+    padding: 12px 45px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+#play{
+    margin-right: 10px;
+    background-color: #ff552b;
+    border: 1px solid #ff552b;
+}
+#app{
+    margin-left: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+hr{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+/*two section */
+#two-phone{
+    margin-top: -250px;
+}
+#two-phone img{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+/*work section*/
+#app-work{
+
+}
+#app-work>h1{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+#work-wrapper{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.work-box{
+    width: 50%;
+}
+.work-box img{
+    width: 100%;
+}
+.work-box h3{
+    color: #ff552b;
+    font-size: 23px;
+}
+.work-box h1{
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+.work-box p{
+    font-size: 20px;
+    color: darkgray;
+}
